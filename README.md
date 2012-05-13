@@ -14,4 +14,4 @@ This is version 1.7 with some minor changes:
 
 * on error a RuntimeException is thrown instead on lib dramatically dying 
 
-* constructor is renamed '__construct' instead of 'FPDF'
+* constructor is renamed *__construct* instead of *FPDF*
