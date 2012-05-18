@@ -1,4 +1,4 @@
-fpdf
+FPDF
 ====
 
 Unofficial PSR-0 compliant version of the FPDF library
