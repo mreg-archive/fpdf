@@ -2,6 +2,7 @@
     "name": "itbz/fpdf",
     "description": "Unofficial PSR-0 compliant version of the FPDF library",
     "homepage": "http://www.fpdf.org/",
+    "license": "no usage restriction",
     "type": "library",
     "require": {
         "php": ">=5.3.0"
