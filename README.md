@@ -43,3 +43,8 @@ To access the enhanced functinality use *FPDF_EXTENDED* instead of *FPDF*.
   pdf is rendered. In this may actions can be taken just before pdf creation.
 * FPDF_EXTENDED defines *GetPdf()* as a shorthand for outputing the pdf as a
   raw string.
+
+
+## Installing with composer
+
+The package exists in the packagist repository as itbz/fpdf
