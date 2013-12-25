@@ -372,6 +372,22 @@ class FPDF_EXTENDED extends FPDF
     }
 
     /**
+     * Write to position
+     *
+     * @param  string $x
+     * @param  string $y
+     * @param  string $line
+     * @param  string $txt 
+     * @param  string $link
+     * @return void
+     */
+    public function WriteXY($x, $y, $line, $txt, $link)
+    {
+        $this->SetXY($x, $y);
+        $this->Write($line, $txt, $link);
+    }
+
+    /**
      *
      * Set image path. Enables image() to understand relative paths.
      *
