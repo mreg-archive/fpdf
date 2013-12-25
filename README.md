@@ -50,3 +50,6 @@ To access the enhanced functinality use `FPDF_EXTENDED` instead of `FPDF`.
 * FPDF_EXTENDED defines `GetPdf()` as a shorthand for outputing the pdf as a
   raw string.
 
+* AS of version 1.7.2 FPDF_EXTENDED defines WriteXY() for writing to a specified
+  position.
+
