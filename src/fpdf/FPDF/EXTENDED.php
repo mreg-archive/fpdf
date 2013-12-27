@@ -378,10 +378,10 @@ class FPDF_EXTENDED extends FPDF
      * @param  string $y
      * @param  string $line
      * @param  string $txt 
-     * @param  string $link
+     * @param  string|identifier $link URL or identifier returned by AddLink().
      * @return void
      */
-    public function WriteXY($x, $y, $line, $txt, $link)
+    public function WriteXY($x, $y, $line, $txt, $link = '')
     {
         $this->SetXY($x, $y);
         $this->Write($line, $txt, $link);
