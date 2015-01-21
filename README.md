@@ -26,7 +26,7 @@ The package exists in the packagist repository as `itbz/fpdf`.
 FPDF_EXTENDED
 -------------
 This package also contains some extensions that break backwards compatibility.
-To access the enhanced functinality use `FPDF_EXTENDED` instead of `FPDF`.
+To access the enhanced functionality use `FPDF_EXTENDED` instead of `FPDF`.
 
 * FPDF_EXTENDED expects all input to be UTF-8 encoded. FPDF natively expects all
   input to be ISO-8859-1 encoded and recommends the use of utf8_decode() when
