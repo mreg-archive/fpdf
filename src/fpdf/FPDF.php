@@ -10,7 +10,7 @@
 // Namespace definition add by itbz 2012-05-13
 namespace fpdf;
 
-define('FPDF_VERSION','1.7');
+if (!defined('FPDF_VERSION')) define('FPDF_VERSION','1.7');
 
 class FPDF
 {
